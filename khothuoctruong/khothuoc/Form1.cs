@@ -43,7 +43,10 @@ namespace khothuoc
 
         private void grvthuoc_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-           
+            int i = grvthuoc.CurrentRow.Index;
+            txttenthuoc.Text = grvthuoc.Rows[i].Cells[1].Value.ToString();
+            txtloaithuoc.Text = grvthuoc.Rows[i].Cells[2].Value.ToString();
+            txthsd.Text = grvthuoc.Rows[i].Cells[3].Value.ToString();
 
         }
          //string sql = "select .... like N'%" + txttenthuoc.Text + "%'";
@@ -83,11 +86,11 @@ namespace khothuoc
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-            int i = dgvNhapThuoc.CurrentRow.Index;
-            cboIDThuoc.Text = dgvNhapThuoc.Rows[i].Cells[0].Value.ToString();
-            txtIDDonNhap.Text = dgvNhapThuoc.Rows[i].Cells[1].Value.ToString();
-            txtNgayNhap.Text = dgvNhapThuoc.Rows[i].Cells[2].Value.ToString();
-            txtSoLuongNhap.Text = dgvNhapThuoc.Rows[i].Cells[3].Value.ToString();
+            //int i = dgvNhapThuoc.CurrentRow.Index;
+            //cboIDThuoc.Text = dgvNhapThuoc.Rows[i].Cells[0].Value.ToString();
+            //txtIDDonNhap.Text = dgvNhapThuoc.Rows[i].Cells[1].Value.ToString();
+            //txtNgayNhap.Text = dgvNhapThuoc.Rows[i].Cells[2].Value.ToString();
+            //txtSoLuongNhap.Text = dgvNhapThuoc.Rows[i].Cells[3].Value.ToString();
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
