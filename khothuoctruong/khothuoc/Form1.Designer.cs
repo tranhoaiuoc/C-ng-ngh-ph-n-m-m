@@ -62,6 +62,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.btnadd = new System.Windows.Forms.Button();
+            this.txtgia = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.txtngaysx = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.txthsd = new System.Windows.Forms.TextBox();
@@ -77,8 +79,6 @@
             this.tenthuoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Loaithuoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.HSD = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label12 = new System.Windows.Forms.Label();
-            this.txtgia = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -203,6 +203,7 @@
             this.menuStrip1.Size = new System.Drawing.Size(762, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // trangChủToolStripMenuItem
             // 
@@ -460,6 +461,22 @@
             this.btnadd.UseVisualStyleBackColor = true;
             this.btnadd.Click += new System.EventHandler(this.btnadd_Click);
             // 
+            // txtgia
+            // 
+            this.txtgia.Location = new System.Drawing.Point(408, 295);
+            this.txtgia.Name = "txtgia";
+            this.txtgia.Size = new System.Drawing.Size(145, 20);
+            this.txtgia.TabIndex = 8;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(405, 276);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(26, 13);
+            this.label12.TabIndex = 7;
+            this.label12.Text = "Giá";
+            // 
             // txtngaysx
             // 
             this.txtngaysx.Location = new System.Drawing.Point(408, 238);
@@ -581,22 +598,6 @@
             this.HSD.DataPropertyName = "HSD";
             this.HSD.HeaderText = "HSD";
             this.HSD.Name = "HSD";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(405, 276);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(26, 13);
-            this.label12.TabIndex = 7;
-            this.label12.Text = "Giá";
-            // 
-            // txtgia
-            // 
-            this.txtgia.Location = new System.Drawing.Point(408, 295);
-            this.txtgia.Name = "txtgia";
-            this.txtgia.Size = new System.Drawing.Size(145, 20);
-            this.txtgia.TabIndex = 8;
             // 
             // Form1
             // 
