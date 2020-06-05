@@ -43,10 +43,7 @@ namespace khothuoc
 
         private void grvthuoc_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            int i = grvthuoc.CurrentRow.Index;
-            txttenthuoc.Text = grvthuoc.Rows[i].Cells[1].Value.ToString();
-            txtloaithuoc.Text = grvthuoc.Rows[i].Cells[2].Value.ToString();
-            txthsd.Text = grvthuoc.Rows[i].Cells[3].Value.ToString();
+           
 
         }
          //string sql = "select .... like N'%" + txttenthuoc.Text + "%'";
