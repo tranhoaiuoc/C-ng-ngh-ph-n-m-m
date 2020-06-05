@@ -19,3 +19,6 @@ E:\Môn học 2020\công nghệ phần mềm\GitHub\CNPM\khothuoc\khothuoc\obj\D
 E:\Môn học 2020\công nghệ phần mềm\GitHub\CNPM\khothuoc\khothuoc\obj\Debug\khothuoc.csproj.GenerateResource.Cache
 E:\Môn học 2020\công nghệ phần mềm\GitHub\CNPM\khothuoc\khothuoc\bin\Debug\khothuoc.exe
 E:\Môn học 2020\công nghệ phần mềm\GitHub\CNPM\khothuoc\khothuoc\bin\Debug\khothuoc.pdb
+E:\Môn học 2020\công nghệ phần mềm\GitHub\C-ng-ngh-ph-n-m-m\khothuoctruong\khothuoc\bin\Debug\khothuoc.exe.config
+E:\Môn học 2020\công nghệ phần mềm\GitHub\C-ng-ngh-ph-n-m-m\khothuoctruong\khothuoc\obj\Debug\khothuoc.exe
+E:\Môn học 2020\công nghệ phần mềm\GitHub\C-ng-ngh-ph-n-m-m\khothuoctruong\khothuoc\obj\Debug\khothuoc.pdb
